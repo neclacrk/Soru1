@@ -1,0 +1,15 @@
+a=int(input("Finansman gelirini giriniz:"))
+b=int(input("Pazar gelirini giriniz:"))
+c=int(input("Kira gelirini giriniz:"))
+d=int(input("Ücreti giriniz:"))
+e=int(input("Finansman giderini giriniz:"))
+f=int(input("Pazar giderini giriniz:"))
+g=int(input("Kira giderini giriniz:"))
+h=int(input("Muhasebe giderini giriniz:"))
+kar=(a+b+c)-(d+e+f+g+h)
+if kar>=2000:
+    print("Karlılık.")
+elif kar<=2000:
+    print("Zarar.")
+else:
+    print("Başabaş noktası.")
