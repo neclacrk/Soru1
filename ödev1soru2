@@ -1,0 +1,11 @@
+def oeeHesapla():
+    a=int(input("Planlanmış üretim süresini giriniz."))
+    b=int(input("Plansız duruşu giriniz:"))
+    c=int(input("Standart çevrim zamanını giriniz:"))
+    d=int(input("Üretim miktarını giriniz:"))
+    e=int(input("Sağlam ürün miktarını giriniz:"))
+    f=int(input("Toplam ürün miktarını giriniz:"))
+    kullanilabilirlik=(a-b)/a
+    performans=(c*d)/(a-b)
+    kalite=e/f
+    oee=kullanilabilirlik*performans*kalite*(MOD)100
