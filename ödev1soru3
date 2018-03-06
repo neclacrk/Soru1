@@ -1,0 +1,7 @@
+def adamBasiCiroHesapla():
+    a=int(input("Satış miktarını giriniz:"))
+    b=int(input("Birim satış fiyatını giriniz:"))
+    c=int(input("Toplam çalışan sayısını giriniz:"))
+    ciro=a*b
+    adamBasiCiro=ciro/c
+    return adamBasiCiro
